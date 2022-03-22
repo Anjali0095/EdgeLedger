@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/utilities.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="css/Style.css">
     <title>Welcome To EdgeLedger</title>
 </head>
@@ -186,7 +187,7 @@
                             <input type="text" name="phone" id="phone"
                             placeholder="Enter phone number">
                         </div>
-                        <input type="submit" value="Send" id="submit" class="btn">
+                        <input type="button" value="Send" id="submit" onclick="send()" class="btn">
                        </form>
             
                     </div>
@@ -203,5 +204,7 @@
        </div>
        <p>Copyright &copy; 2020 -EdgeLedger</p>
    </footer> 
+   <script src="swal.js"></script>
+   <script src="main.js"></script>
 </body>
 </html>
